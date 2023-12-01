@@ -1,0 +1,58 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     background-color: #39374b;
+}
+
+.container {
+     display: grid;
+     align-items: center;
+     justify-content: center;
+     background-color: white;
+     width: 500px;
+     height: 460px;
+     margin: 0 auto;
+}
+
+.boxes {
+     flex-wrap: wrap;
+     display: flex;
+     padding: 10px 0;
+     padding-left: 20px;
+}
+
+.boxes > div {
+     width: 40px;
+     height: 40px;
+     border: 1px solid black;
+}
+
+.reset {
+     border: none;
+     padding: 15px 0;
+     cursor: pointer;
+}
+
+h1 {
+     margin: 20px 0;
+     text-align: center;
+     color: white;
+}
+
+.bomb {
+     background-color: orange;
+}
+
+.valid {
+     background-color: blue;
+}
+
+p {
+     display: flex;
+     justify-content: end;
+     margin-right: 10px;
+     margin-top: 10px;
+}
